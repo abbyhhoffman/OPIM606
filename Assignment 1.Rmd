@@ -1,0 +1,78 @@
+---
+title: "Assignment 1"
+author: "Abby Hoffman"
+output: html_document
+---
+
+## Data Dictionary
+
+The variables in WorldValues.csv were created as follows:
+
+- Code: Country code. (check CountryCodes.csv for the name of the countries)
+- SurveyYear: year survey taken
+- BirthYear: respondents' year of birth
+- Satisfied: Satisfaction with your life from 1 (completely dissatisfied) to 10 (completely satisfied)
+- Income: a country-specific scale ranging from 1 (lowest income category) to 10 (highest income category)
+- Education: a scale ranging from 1 (no formal education) to 9 (a degree from a university)
+- Conserv: self-identified political conservatism from 1 (most liberal) to 10 (most conservative)
+- Religious: Indicating how often the individual attends religious
+- Male: a dummy variable indicating male
+- Marital: Marital status 1 = Married 2 = Living together as married 3 = Divorced 4 = Separated 5 = Widowed 6 = Single
+
+
+#### 1) Load the followig two files: "WorldValues.csv and "CountryCodes.csv"
+
+```{r}
+
+```
+
+
+#### 2) What are the country codes for Brazil, and the United States?
+
+```{r}
+
+```
+
+
+#### 3) Create two dummy variables: one for observations from Brazil and one for observations from the U.S.  What types of variables are these? How many observations are from each country?
+
+```{r}
+
+```
+
+
+#### 4)	Calcualte the age of each respondent at the time the sruvey was taken. Check for data errors. What is the average age of all observations in the data set? The minimum and maximum?
+
+```{r}
+
+```
+
+
+#### 5)	What are the average ages of observations from Brazil and the U.S.?
+
+```{r}
+
+```
+
+
+#### 6)	What is the distribution of the gender variable? Compare across the two countries above.
+
+```{r}
+
+```
+
+
+#### 7)	What is the distribution of the education variable?  Compare for each of the two countries. Calculate as percentages and round the reported ratios to three decimals. 
+
+```{r}
+
+```
+
+
+#### 8)	Create an object that contains only the data for observations from Brazil. What are the dimensions of this data object?
+
+```{r}
+
+```
+
+
